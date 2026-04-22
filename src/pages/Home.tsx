@@ -32,7 +32,7 @@ export default function Home() {
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
             className="max-w-4xl"
           >
-            <h1 className="text-6xl sm:text-7xl lg:text-9xl font-black mb-6 tracking-tight leading-[0.9] text-white">
+            <h1 className="text-5xl sm:text-7xl lg:text-9xl font-black mb-6 tracking-tight leading-[0.9] text-white">
               Automotive <br/>
               <span className="text-white/80 italic font-medium">Perfection.</span>
             </h1>

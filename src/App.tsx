@@ -43,11 +43,11 @@ function Layout() {
       {/* Sleek Navigation */}
       <header className={`fixed top-0 w-full z-50 transition-all duration-500 ${scrolled ? 'bg-black/80 backdrop-blur-xl border-b border-white/10 py-2' : 'bg-transparent py-4'}`}>
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-          <Link to="/" className="z-50 shrink-0">
+          <Link to="/" className="z-50 shrink-0 max-w-[65vw]">
             <img 
               src="https://i.imgur.com/WteqLLo.png" 
               alt="OutaTime Detailing Logo" 
-              className={`w-auto object-contain transition-all duration-500 ${scrolled ? 'h-16 sm:h-20' : 'h-24 sm:h-[120px]'}`} 
+              className={`w-full h-auto object-contain transition-all duration-500 ${scrolled ? 'max-h-16 sm:max-h-20' : 'max-h-20 sm:max-h-[120px]'}`} 
             />
           </Link>
           
